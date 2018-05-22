@@ -34,6 +34,9 @@ header, .experience {
 /* =====MOBILE===== */
 @media screen and (max-width:600px)
 {
+	li{
+		text-align: left;
+	}
 	.main-content{
 		display: block;
 		clear: both;
@@ -49,7 +52,32 @@ header, .experience {
 		width: 100%;
 		text-align: center;
 	}
-	li{
-		text-align: left;
+
+	.navbar{
+		text-align: center;
+	}
+
+	#logo{
+		width: 150px;
+	}
+}
+
+/* =====TABLETS===== */
+@media screen and (min-width:601px) and (max-width:820px) {
+	.left{
+		display:block;
+		width: 100%;
+	}
+	.right{
+		clear: both;
+		display:block;
+		width: 100%;
+	}
+	.navbar{
+		text-align: center;
+	}
+
+	#logo{
+		width: 150px;
 	}
 }
