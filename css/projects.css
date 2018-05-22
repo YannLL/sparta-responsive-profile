@@ -18,3 +18,14 @@
 	display: block;
 	margin: 0 auto;
 }
+
+@media screen and (max-width:1179px) {
+.screenshot {
+  width: 95%;
+  height:25%;
+  }
+
+  .tile p {
+    word-wrap: break-word;
+  }
+}
