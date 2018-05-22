@@ -31,9 +31,25 @@ header, .experience {
 	padding: 10px;
 }
 
-/* @media screen and (max-width:600px)
+/* =====MOBILE===== */
+@media screen and (max-width:600px)
 {
-	#headshot{
+	.main-content{
+		display: block;
+		clear: both;
+		margin: 0 1%;
+	}
+	.left{
+		display:block;
 		width: 100%;
 	}
-} */
+	.right{
+		clear: both;
+		display:block;
+		width: 100%;
+		text-align: center;
+	}
+	li{
+		text-align: left;
+	}
+}
