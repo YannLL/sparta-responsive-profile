@@ -19,7 +19,9 @@
 	margin: 0 auto;
 }
 
+/*  ===== TILE FIX =====*/
 @media screen and (max-width:1179px) {
+
 .screenshot {
   width: 95%;
   height:25%;
@@ -29,3 +31,36 @@
     word-wrap: break-word;
   }
 }
+/* =============== */
+
+/* =====TABLET==== */
+@media screen and (max-width:972px) {
+ .tile {
+   margin-right: 0px;
+   width: 30%;
+ }
+ .navbar{
+   text-align: center;
+ }
+
+ #logo{
+   width: 150px;
+ }
+}
+/* =============== */
+
+/* =====MOBILE==== */
+@media screen and (max-width:720px){
+
+.tile{
+  width: 100%;
+}
+.navbar{
+  text-align: center;
+}
+
+#logo{
+  width: 150px;
+}
+}
+/* =============== */
